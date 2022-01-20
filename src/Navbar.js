@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div>
+        <div className="mx-5 my-5 p-5">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        Navbar
+                        HAllOWEEN
                     </a>
                     <button
                         className="navbar-toggler"
