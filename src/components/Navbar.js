@@ -3,10 +3,10 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div className="mx-5 my-5 p-5">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg">
+                <div className="container-fluid mx-5 my-5 p-5">
                     <a className="navbar-brand" href="#">
-                        HAllOWEEN
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYt9IYy1xY8m9pxGtNGJgjg0Xv22qyVb97w&usqp=CAU" className='' />
                     </a>
                     <button
                         className="navbar-toggler"
@@ -63,16 +63,7 @@ export default function Navbar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <a
-                                    className="nav-link disabled"
-                                    href="#"
-                                    tabIndex={-1}
-                                    aria-disabled="true"
-                                >
-                                    Disabled
-                                </a>
-                            </li>
+
                         </ul>
                         <form className="d-flex">
                             <input
@@ -81,7 +72,7 @@ export default function Navbar() {
                                 placeholder="Search"
                                 aria-label="Search"
                             />
-                            <button className="btn btn-outline-success" type="submit">
+                            <button className="btn btn-outline-dark" type="submit">
                                 Search
                             </button>
                         </form>
