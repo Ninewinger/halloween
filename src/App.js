@@ -55,7 +55,7 @@ function App() {
           {Array.from({ length: 4 }).map((_, idx) => (
             <Col>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src="https://images.pexels.com/photos/276377/pexels-photo-276377.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
                 <Card.Body>
                   <Card.Title>Card title</Card.Title>
                   <Card.Text>
