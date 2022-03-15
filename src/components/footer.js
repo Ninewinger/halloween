@@ -15,36 +15,15 @@ export default function Footer() {
                                     </a>
                                 </strong>
                             </p>
-                        </div>
-                        <div className="col-md-6">
-                            <ul className="list-unstyled list-inline text-right">
-                                <li className="list-inline-item">
-                                    <a href="">
-                                        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="">
-                                        <FontAwesomeIcon icon={['fab', 'twitter']} />
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="">
-                                        <FontAwesomeIcon icon={['fab', 'instagram']} />
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="">
-                                        <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="">
-                                        <FontAwesomeIcon icon={['fab', 'youtube']} />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                            <p className="text-white">
+                                <small>
+                                    <FontAwesomeIcon icon="map-marker-alt" />
+                                    <span className="ml-2">
+                                        <a href="" className="text-white">
+                                        </a>
+                                    </span>
+                                </small>
+                            </p>
                     </div>
                 </div>
             </footer>
