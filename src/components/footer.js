@@ -24,6 +24,7 @@ export default function Footer() {
                                     </span>
                                 </small>
                             </p>
+                        </div>
                     </div>
                 </div>
             </footer>
