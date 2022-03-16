@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Footer from './components/footer';
+import Calabaza from './components/calabaza';
 
 /* halloween themed page made with bootstrap with a carousel, nabvar and halloween images all centered with a black background with halloween ornaments*/
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar />
       <div className='container my-5'>
+      <Calabaza />
         <Carousel>
           <Carousel.Item>
             <img

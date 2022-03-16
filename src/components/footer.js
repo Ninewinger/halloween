@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Footer() {
     return (
@@ -16,13 +15,7 @@ export default function Footer() {
                                 </strong>
                             </p>
                             <p className="text-white">
-                                <small>
-                                    <FontAwesomeIcon icon="map-marker-alt" />
-                                    <span className="ml-2">
-                                        <a href="" className="text-white">
-                                        </a>
-                                    </span>
-                                </small>
+                                
                             </p>
                         </div>
                     </div>
