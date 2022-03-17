@@ -9,7 +9,9 @@ export default function Calabaza() {
                 <div className='calabaza-ojo-izquierdo'></div>
                 <div className='calabaza-ojo-derecho'></div>
                 <div className='calabaza-nariz'></div>
-                <div className='calabaza-boca'></div>
+                <div className='calabaza-boca-izquierda'></div>
+                <div className='calabaza-boca-derecha'></div>
+                <div className='calabaza-dientes'></div>
             </div>
         </div>
     );

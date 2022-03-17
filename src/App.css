@@ -102,11 +102,56 @@ body{
 
 .calabaza-ojo-izquierdo {
   position: absolute;
-  left: -10px;
+  left: -5px;
   top: -10px;
   width: 0px;
   height: 0px;
   border-top: 20px solid transparent;
   border-bottom: 33px solid transparent;
-  border-right: 40px solid black;
+  border-right: 40px solid rgb(48, 22, 4);
+  transform: rotate(-30deg);
+}
+
+.calabaza-ojo-derecho {
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-bottom: 33px solid transparent;
+  border-right: 40px solid rgb(48, 22, 4);
+  transform: rotateY(180deg) rotate(-30deg);
+}
+
+.calabaza-nariz {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 0px;
+  width: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 32px solid transparent;
+  border-right: 28px solid rgb(48, 22, 4);
+  transform: translateX(-30%) translateY(-50%) rotate(25deg) rotateZ(180deg);
+}
+
+.calabaza-boca-izquierda {
+  position: absolute;
+  bottom: -20px;
+  left: 27px;
+  width: 70px;
+  height: 30px;
+  border-bottom: 12px solid rgb(48, 22, 4);
+  border-radius: 0 0 0 100%;
+}
+
+.calabaza-boca-derecha {
+  position: absolute;
+  bottom: -20px;
+  right: 27px;
+  width: 70px;
+  height: 30px;
+  border-bottom: 12px solid rgb(48, 22, 4);
+  border-radius: 0 0 100% 0;
 }
