@@ -155,3 +155,10 @@ body{
   border-bottom: 12px solid rgb(48, 22, 4);
   border-radius: 0 0 100% 0;
 }
+
+.calabaza:hover {
+  transform: scale(1.1);
+  .calabaza-wrapper {
+    box-shadow: inset 0px 0px 40px rgb(248, 112, 0), 0px 0px 40px  red;
+  }
+}
