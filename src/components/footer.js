@@ -15,7 +15,11 @@ export default function Footer() {
                                 </strong>
                             </p>
                             <p className="text-white">
-                                
+                                <small>
+                                    <a href="" className="text-white">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYt9IYy1xY8m9pxGtNGJgjg0Xv22qyVb97w&usqp=CAU" className="" />
+                                </a>
+                                </small>
                             </p>
                         </div>
                     </div>
