@@ -3,7 +3,9 @@
 }
 
 body{
-  background-color: black;
+  background-image: url("https://www.wallpaperbetter.com/wallpaper/876/489/97/ghost-ship-from-hell-2K-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -156,9 +158,10 @@ body{
   border-radius: 0 0 100% 0;
 }
 
-.calabaza:hover {
-  transform: scale(1.1);
-  .calabaza-wrapper {
-    box-shadow: inset 0px 0px 40px rgb(248, 112, 0), 0px 0px 40px  red;
-  }
+.calabaza-wrapper:hover {
+  transform: translateX(-50%) translateY(-50%) scale(1.1);
 }
+
+/* flowing blood with animation */
+
+.blood {}

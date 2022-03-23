@@ -15,7 +15,6 @@ function App() {
     <>
       <Navbar />
       <div className='container my-5'>
-      <Calabaza />
         <Carousel>
           <Carousel.Item>
             <img
